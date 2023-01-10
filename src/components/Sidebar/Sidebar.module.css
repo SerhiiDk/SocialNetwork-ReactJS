@@ -1,0 +1,18 @@
+.avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.sidebar{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 12px;
+}
+
+.heading{
+    padding-left: 40px;
+    color: white;
+    font-weight: 400;
+}

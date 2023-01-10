@@ -1,0 +1,13 @@
+.nav {
+    /* height: 100vh; */
+    grid-area: n;
+    background-color: grey;
+  }
+
+.item a{
+    color:#fff;
+} 
+
+.item a.activeLink {
+  color: gold;
+}
