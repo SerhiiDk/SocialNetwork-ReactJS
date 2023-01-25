@@ -1,8 +1,5 @@
 
 const SET_AUTH_USER_DATA = "SET_AUTH_USER-DATA";
-// const USER_IS_AUTH = "USER_IS_AUTH";
-
-
 
 let initialState = {
     userId: null,
@@ -12,21 +9,17 @@ let initialState = {
 };
 
 const authReducer = (state = initialState, action) => {
-    // debugger
     switch (action.type) {
         case SET_AUTH_USER_DATA:
             // debugger
             return {
                 ...state,
-                // userId: action.data.id,
-                // email: action.data.email,
-                // login: action.data.login,
                 ...action.data,
                 isAuth: true,
 
             }
         default: {
-            return state; //{ ...state, isAuth: "dfsfds" };
+            return state;
         }
     }
 
